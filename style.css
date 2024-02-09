@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +8,6 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f8f8;
-}
-h3{
-  color: white;
 }
 
 /* Header styles */
@@ -31,7 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} 
+}
 
 .logo {
   font-size: 1.5rem;
@@ -69,20 +65,19 @@ a {
 
 .btn {
   display: block;
-  width: 200px; 
-  margin: 0 auto; 
+  width: 200px;
+  margin: 0 auto;
   padding: 10px 20px;
   background-color: black;
-  color: white; 
+  color: white;
   text-align: center;
-  text-decoration: none; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .btn:hover {
-  background-color: blue; 
-  
+  background-color: blue;
 }
 
 /* Category cards styles */
@@ -129,12 +124,12 @@ a {
 .weekly-deal {
   text-align: center;
 }
-.weekly-deal h3{
+.weekly-deal h3 {
   color: black;
 }
 /* Carousel styles */
 .carousel-item {
-  height: 600px; 
+  height: 600px;
 }
 
 .carousel-item img {
@@ -142,7 +137,6 @@ a {
   height: 100%;
   object-fit: cover;
 }
-
 
 .carousel-item + .carousel-item {
   margin-top: 20px;
@@ -160,27 +154,26 @@ a {
 }
 
 .service {
-  width: calc(30% - 25px); 
+  width: calc(30% - 25px);
   background-color: #f9f9f9;
   padding: 40px;
   margin-bottom: 20px;
 }
 .buffet {
-  background-image: url('https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url("https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
 
 .private-dining {
-  background-image: url('https://images.pexels.com/photos/11794317/pexels-photo-11794317.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url("https://images.pexels.com/photos/11794317/pexels-photo-11794317.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
 
 .catering-services {
-  background-image: url('https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url("https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
 
 .cooking-classes {
-  background-image: url('https://images.pexels.com/photos/8477297/pexels-photo-8477297.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-image: url("https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
-
 
 .service h3 {
   font-size: 1.2rem;
@@ -189,23 +182,23 @@ a {
 
 .service p {
   font-size: 1rem;
-  color:white;
+  color: white;
   line-height: 1.4;
 }
 button {
   display: block;
   position: absolute;
-  bottom: 20px; 
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: 200px;
-  margin: 0 auto; 
-  padding: 10px 20px; 
+  margin: 0 auto;
+  padding: 10px 20px;
   border: none;
   background-color: black;
   color: white;
   text-align: center;
-  text-decoration: none; 
+  text-decoration: none;
   cursor: pointer;
   border-radius: 5px;
 }
