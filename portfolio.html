@@ -5,53 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maselesele Muphulusi-Portfolio</title>
     <link rel="stylesheet" href="style1.css" />
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#home">Contact</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="intro">
-        <h1>
-          Hi,<br />
-          I'm Maselesele Muphulusi
-        </h1>
-        <p>and I am a Software Developer</p>
-      </div>
+      <h1>Hi there,</h1>
+      <strong><p>I'm Maselesele Muphulusi</p></strong>
+      <section class="introa">
+        <p>and I am a Web Developer.</p>
+      </section>
     </header>
 
-    <section id="about">
-      <img src="src/photo2.jpg" alt="Your Photo" />
-      <h2>About me</h2>
-      <p>
-        I am a recent Computer Science graduate with passion for technology and
-        innovation, eager to embark on a journey that merges theory with
-        practical application. My academic background, complemented by projects
-        and online short courses, has equipped me with a solid foundation in
-        software development, algorithms and problem-solving. <br />
-        <br />
-        I possess a solid foundation in coding languages such as Python, Java,
-        JavaScript, HTML,CSS. I am also well versed in MySQL and APIs. I am
-        commited to continuous learning and growth. <br />
-        <br />
-        I thrive in dynamic environments where creativity and analytical
-        thinking converge. My goal is to contribute my skills to ever-evolving
-        tech landscapes and be part of innovative solutions that drive posoitive
-        change.
-      </p>
-    </section>
+    <div class="about-me">
+      <div class="intro">
+        <h1>About Me</h1>
+        <h2>I'm Maselesele Muphulusi, a Web Developer</h2>
+        <img src="src/photo2.jpg" alt="Profile Image" class="profile-image">
+        <p>
+          I possess a solid foundation in coding languages such as Python, Java,
+          JavaScript, HTML,CSS. I am also well versed in MySQL and APIs. My
+          academic background, complemented by projects and online short
+          courses, has equipped me with a solid foundation in software
+          development, algorithms and problem-solving. I am commited to
+          continuous learning and growth. I thrive in dynamic environments where
+          creativity and analytical thinking converge. My goal is to contribute
+          my skills to ever-evolving tech landscapes and be part of innovative
+          solutions that drive positive change.
+        </p>
+        <div class="images-container">
+        <div class="container1">
+    <h2>Education</h2>
+    <p>University of the Western Cape <br>
+      Bsc Computer Science
+    </p>
+  </div>
+  <div class="container2">
+    <h2>Modules</h2>
+    <ul>
+      <li>Computer Science</li>
+      <li>Information Systems</li>
+      <li>Statistics</li>
+      <li>Mathematics</li>
+      <li>Computer Literacy</li>
+      <li>Eng-For Educ Dev</li>
+    </ul>
+  </div>
+</div>
+
+        <br><br>
+        <a href="src/CV_Maselesele.pdf" target="_blank">Download CV</a>
+      </div>
+    </div>
     <section class="skills-section">
       <h2>My Skills</h2>
-      <p>
-        Far far away, behind the word mountains, far from the countries Vokalia
-        and Consonantia
-      </p>
+      <p>Programming :</p>
       <div class="skills-list">
         <div class="skill">
           <p>Javascript</p>
@@ -62,19 +85,19 @@
         <div class="skill">
           <p>HTML</p>
           <div class="progress-bar">
-            <div class="progress" style="width: 85%"></div>
+            <div class="progress" style="width: 100%"></div>
           </div>
         </div>
         <div class="skill">
           <p>CSS</p>
           <div class="progress-bar">
-            <div class="progress" style="width: 95%"></div>
+            <div class="progress" style="width: 100%"></div>
           </div>
         </div>
         <div class="skill">
           <p>Java</p>
           <div class="progress-bar">
-            <div class="progress" style="width: 90%"></div>
+            <div class="progress" style="width: 70%"></div>
           </div>
         </div>
         <div class="skill">
@@ -86,7 +109,7 @@
         <div class="skill">
           <p>MySQL</p>
           <div class="progress-bar">
-            <div class="progress" style="width: 80%"></div>
+            <div class="progress" style="width: 70%"></div>
           </div>
         </div>
         <div class="skill">
@@ -116,7 +139,7 @@
               href="https://skywatchify.netlify.app/"
               class="btn"
               target="_blank"
-              style="color: orange"
+               style="color: orange"
               >Link to project</a
             >
           </div>
@@ -124,11 +147,14 @@
             <img src="src/landing page.png" alt="Project 2" />
             <h3>Landing page</h3>
             <p>
-              Authentic South Indian flavors that will tantalize your taste
-              buds.
+              This project was created using HTML and CSS, it is a landing page
+              for a restaurant displaying the latest dishes, promotions and
+              services offered in the restaurant. It includes a view menu button
+              on the home page and has a navigation bar to different pages on
+              top of the page.
             </p>
             <a
-              href="https://github.com/Maselesele02/CodSoft"
+              href="https://github.com/Maselesele02/CODSOFT1"
               class="btn"
               target="_blank"
               style="color: orange"
@@ -146,7 +172,7 @@
               input and results
             </p>
             <a
-              href="https://github.com/Maselesele02/CodSoft"
+              href="https://github.com/Maselesele02/CODSOFT1"
               class="btn"
               target="_blank"
               style="color: orange"
@@ -156,20 +182,41 @@
         </div>
       </div>
     </section>
+     <h2 >Contact Me</h2>
     <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="#" method="post">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required />
+      
+  <div class="container3">
+    <div class="left-side">
+      <div class="contact-info">
+        <span id="heading">Why Get in Touch?</span><br>
+        <span>Are you ready to Empower your digital journey!</span><br>
+        <span>Let's discuss how my front-end expertise can bring your projects to life.</span>
+      </div>
+      <div class="contact-info">
+        <span id="heading">Address:</span><br>
+        <span>1820, Ha-Mutuvhi, Limpopo-South Africa</span>
+      </div>
+      <div class="contact-info">
+        <span id="heading">Email:</span><br>
+        <span>maseleselemuphulusi@gmail.com</span>
+      </div>
+      <div class="contact-info">
+        <span id="heading">Phone:</span><br>
+        <span>+27 767447339</span>
+      </div>
+    </div>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
 
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" required />
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
 
-        <button type="submit">Send Message</button>
-      </form>
+      <button type="submit">Send Message</button>
+    </form>
     </section>
 
     <footer>
